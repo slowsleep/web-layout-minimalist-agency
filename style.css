@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+.header {
+    position: relative;
+    background-size: contain;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.header__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 2em;
+    margin: 0 3em;
+}
+
+.nav__menu {
+    background-image: url('img/Hamburger.svg');
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 1em;
+}
+
+.header__text {
+    margin: 9vmax 25vw 0 16vw;
+}
+
+.header__text__title {
+    font-size: 5em;
+    font-weight: 700;
+    margin: 0;
+}
+
+.header__text__second {
+    margin: 4em 0 8em 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.list-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5em 10em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.list-items__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+
+.list-items__item__icon {
+    width: 45px;
+}
