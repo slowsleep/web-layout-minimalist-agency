@@ -1,7 +1,12 @@
-body {
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
     font-family: Trebuchet MS, sans-serif;
+    height: 100%;
 }
 
 .header {
@@ -41,7 +46,7 @@ body {
 }
 
 .header__text {
-    margin: 9vmax 25vw 0 16vw;
+    margin: 9vmax 26vw 0 16vw;
 }
 
 .header__text__title {
@@ -57,7 +62,7 @@ body {
     font-size: 18pt;
 }
 
-.list-items {
+.services {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -66,14 +71,65 @@ body {
     text-align: center;
 }
 
-.list-items__item {
+.services__item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 1em;
+    gap: 2.5em;
 }
 
-.list-items__item__icon {
+.services__item__icon {
     width: 45px;
 }
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10em 10em;
+    margin: 10em 10em 10em;
+}
+
+.intro__hello {
+    width: 18%;
+    align-items: end;
+    align-content: end;
+    position: relative;
+    overflow: hidden;
+}
+
+.intro__hello__img {
+    width: 100%;
+    align-self: end;
+    position: absolute;
+    top: 37%;
+}
+
+.intro__title {
+    width: 30%;
+}
+
+.intro__title__text {
+    font-weight: bold;
+    text-align: end;
+    font-size: 2.3em;
+}
+
+.intro__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2em;
+    width: 28%;
+    margin-right: 3em;
+}
+
+.intro__text_ourinfo {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
