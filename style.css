@@ -7,6 +7,7 @@
 body {
     font-family: Trebuchet MS, sans-serif;
     height: 100%;
+    background-color: white;
 }
 
 .header {
@@ -183,4 +184,84 @@ body {
 
 .past-work__gallery__col img {
     width: 100%;
+}
+
+.our-process {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 100%);
+    padding-bottom: 5em;
+}
+
+.our-process__content {
+    display: flex;
+    flex-direction: row;
+    margin: 8.5em 11em;
+    justify-content: space-between;
+}
+
+.our-process__content__image {
+    width: 47%;
+}
+
+.our-process__content__image img {
+    width: 100%;
+}
+
+.our-process__content__text {
+    width: 39%;
+}
+
+.our-process__content__text__header {
+    font-weight: bold;
+    font-size: 2.2em;
+    margin: .8em 0 2.5em 0;
+}
+
+.our-process__content__text__processes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3.8em;
+    margin: 2em 0 0 0;
+}
+
+.our-process__content__text__processes-list__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.our-process__content__text__processes-list__item__icon {
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px 1px #A5A5A5;
+    background-color: white;
+    align-content: center;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    padding: 1em;
+}
+
+.our-process__content__text__processes-list__item__icon img {
+    width: 100%;
+}
+
+.our-process__content__text__processes-list__item__text {
+    display: flex;
+    flex-direction: column;
+    gap: .7em;
+}
+
+.our-process__content__text__processes-list__item__text p {
+    width: 90%;
+}
+
+.our-process__footer {
+    margin: 0 auto;
+    margin-top: 9em;
+}
+
+.our-process__footer p {
+    text-align: center;
+    font-size: 1.2em;
 }
