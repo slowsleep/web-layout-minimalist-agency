@@ -87,8 +87,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 10em 10em;
-    margin: 10em 10em 10em;
+    margin: 10em 10em 10.3em 10em;
 }
 
 .intro__hello {
@@ -132,4 +131,56 @@ body {
 }
 
 
+.past-work__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 9em 5em 7em 16em;
+}
 
+.past-work__header__title {
+    font-weight: bold;
+    font-size: 2.2em;
+}
+
+.past-work__header__nav {
+    align-content: center;
+}
+
+.past-work__header__nav__list {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.past-work__header__nav__list__item {
+    color: #777;
+    font-weight: bold;
+}
+
+.past-work__header__nav__list__item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.past-work__header__nav__list__item--active {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.past-work__gallery {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.past-work__gallery__col {
+    display: flex;
+    flex-direction: column;
+}
+
+.past-work__gallery__col img {
+    width: 100%;
+}
