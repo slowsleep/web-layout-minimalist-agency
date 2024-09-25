@@ -437,3 +437,36 @@ body {
 .blog-post__content__card__footer > img {
     width: 15px;
 }
+
+.banner {
+    background: url(/img/banner-bg.png) no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3em 16.5em 5em 0;
+}
+
+.banner__logo {
+    width: 26em;
+    margin-left: -3em;
+    margin-right: 5.5em;
+}
+
+.banner__title {
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 0.6;
+    align-content: center;
+}
+
+.banner__button {
+    padding: 1em 2.3em;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 2.5em 0;
+    font-size: 20px;
+    font-weight: bold;
+}
